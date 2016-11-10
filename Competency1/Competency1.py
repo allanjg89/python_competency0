@@ -13,6 +13,7 @@ def greet(name):
 	
 	return Greeting
 
+
 def abba(a,b):
 	# Given two strings, a and b, return the result of putting them in 
 	# the order of abba.  e.g. "Hi" and "Bye" returns "HiByeByeHi"	
@@ -267,8 +268,3 @@ def functions2():
 def my_second_function(a,b):
     return a*b
 
-print(greet("Allan"))
-print(abba("hi","bye"))
-print(slice_us("<<>>", "word"))
-print(duplicate("word", 4))
-print(shortlongshort("aa","b"))
